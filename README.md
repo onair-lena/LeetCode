@@ -1,2 +1,0 @@
-# LeetCode
-Created with CodeSandbox
