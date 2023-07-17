@@ -4,7 +4,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var singleNumber = function (nums = [0, 1, 0, 1, 0, 1, 99]) {
+var singleNumber = function (nums ) {
   const obj = {};
   for (let i = 0; i < nums.length; i++) {
     if (obj[nums[i]]) {

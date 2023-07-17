@@ -1,6 +1,6 @@
 //2609. Find the Longest Balanced Substring of a Binary String
 
-var findTheLongestBalancedSubstring = function (s = "111") {
+var findTheLongestBalancedSubstring = function (s ) {
   let res = 0;
   let subArr = 0;
   let k = 1;
@@ -20,4 +20,3 @@ var findTheLongestBalancedSubstring = function (s = "111") {
   return res * 2;
 };
 
-console.log(findTheLongestBalancedSubstring());
